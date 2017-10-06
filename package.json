@@ -1,0 +1,33 @@
+{
+  "name": "dmidz-hapi-content-negociation",
+  "version": "1.0.0",
+  "description": "Hapi plugin for content format negociation and few extra such per route view and default payload.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/unit.js -v -I check",
+    "test_noleaks": "lab test/unit.js --leaks -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmidz/dmidz-hapi-content-negociation.git"
+  },
+  "keywords": [
+    "hapi",
+    "content",
+    "negociation"
+  ],
+  "author": "David MARTIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmidz/dmidz-hapi-content-negociation/issues"
+  },
+  "homepage": "https://github.com/dmidz/dmidz-hapi-content-negociation#readme",
+  "dependencies": {
+    "dmidz-utils": "^1.0.0"
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "lab": "^14.3.1"
+  }
+}
