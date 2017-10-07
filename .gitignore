@@ -1,5 +1,7 @@
 # PhpStorm/WebStorm project file
 .idea
+# temp while tests not finished
+test/
 
 # Logs
 logs

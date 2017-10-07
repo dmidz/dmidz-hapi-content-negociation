@@ -10,50 +10,7 @@ const Path = require('path')
 
 lab.experiment('dmidz-app', function(){
 
-	const app = new App( {
-		settings : {
-			app : {
-				root : __dirname
-				, dirs : {
-					plugins : Path.join( __dirname, 'plugins')
-				}
-			}
-		}
-		, routes : [{//_ home
-			method: 'GET'
-			, path: '/'
-			, config : {
-				handler: function (request, reply) {
-					return reply({ title: 'homepage', content:'Hello !' });
-				}
-			}
-		}]
-		, plugins : {
-			'plugin-sample' : {
-				custom : 1
-				, register_options : {
-					routes : {
-						prefix : plugin_route_prefix
-					}
-				}
-				, options : {
-					property : 999
-					, routes : [{
-						method: 'GET'
-						, path: '/hello'
-						, config : {
-							handler: function (request, reply) {
-								return reply({ title: 'homepage', content:'Hello !' });
-							}
-						}
-					}]
-				}
-			}
-		}
-	} );
-
 	lab.before(function( done ){
-
 
 		app.initialize().then( function(){
 			done();

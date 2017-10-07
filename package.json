@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/dmidz/dmidz-hapi-content-negociation#readme",
   "dependencies": {
-    "dmidz-utils": "^1.0.0"
+    "bluebird": "^3.5.1",
+    "dmidz-utils": "^1.0.1"
   },
   "peerDependencies": {
+    "hapi": "^16.6.2"
   },
   "devDependencies": {
     "lab": "^14.3.1"
