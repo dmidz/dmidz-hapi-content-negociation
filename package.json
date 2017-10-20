@@ -30,7 +30,7 @@
     "negotiator": "^0.6.1"
   },
   "peerDependencies": {
-    "hapi": "^16.6.2"
+    "hapi": "16.x"
   },
   "devDependencies": {
     "lab": "^14.3.1",
