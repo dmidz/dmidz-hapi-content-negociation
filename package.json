@@ -1,6 +1,6 @@
 {
   "name": "dmidz-hapi-content-negociation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hapi plugin for content format negociation and few extra such per route view and default payload.",
   "main": "index.js",
   "scripts": {
